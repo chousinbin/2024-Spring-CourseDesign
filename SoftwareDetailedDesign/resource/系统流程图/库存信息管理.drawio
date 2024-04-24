@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-16T02:03:12.559Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="Km5wg2-vhXxeaY1cHtzM" version="24.2.5" type="device">
+<mxfile host="app.diagrams.net" modified="2024-04-23T01:36:53.262Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="6N71ut5dvjgu3YqMj7sY" version="24.2.5" type="device">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="954" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -45,10 +45,7 @@
         <mxCell id="XwCnFEV1DA9XvAOcCUmm-7" value="系统自动识别药品库存" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="440" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XwCnFEV1DA9XvAOcCUmm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XwCnFEV1DA9XvAOcCUmm-8" target="XwCnFEV1DA9XvAOcCUmm-15" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="XwCnFEV1DA9XvAOcCUmm-8" value="提示库存不足" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="XwCnFEV1DA9XvAOcCUmm-8" value="新增缺货日志" style="rounded=0;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="641" y="390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XwCnFEV1DA9XvAOcCUmm-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XwCnFEV1DA9XvAOcCUmm-7" target="XwCnFEV1DA9XvAOcCUmm-2" edge="1">
@@ -115,13 +112,13 @@
         <mxCell id="layL7wQ-Ctnk310BwO7u-2" value="采购信息表" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="661.5" y="640" width="79" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7Mfh_28bKIqnt94zy35t-2" value="缺货日志" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="7Mfh_28bKIqnt94zy35t-2" value="缺货日志" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="820" y="460" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7Mfh_28bKIqnt94zy35t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XwCnFEV1DA9XvAOcCUmm-8" target="7Mfh_28bKIqnt94zy35t-2">
+        <mxCell id="7Mfh_28bKIqnt94zy35t-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XwCnFEV1DA9XvAOcCUmm-8" target="7Mfh_28bKIqnt94zy35t-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7Mfh_28bKIqnt94zy35t-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XwCnFEV1DA9XvAOcCUmm-15" target="7Mfh_28bKIqnt94zy35t-2">
+        <mxCell id="7Mfh_28bKIqnt94zy35t-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="XwCnFEV1DA9XvAOcCUmm-15" target="7Mfh_28bKIqnt94zy35t-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
